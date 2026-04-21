@@ -1,0 +1,28 @@
+	cap log close
+log using fig1.log, text replace
+
+import excel "$disclosure7", sheet(11) cellrange(A5:E165) firstrow clear
+set scheme cleanplots
+
+rename Quartileoforigin startq
+rename Quartileofdestination endq
+
+scatter y_m_xb Eventtime if startq==4 & endq==4, connect(l) || ///
+scatter y_m_xb Eventtime if startq==4 & endq==3, connect(l) || ///
+scatter y_m_xb Eventtime if startq==4 & endq==2, connect(l) || ///
+scatter y_m_xb Eventtime if startq==4 & endq==1, connect(l) || ///
+scatter y_m_xb Eventtime if startq==1 & endq==4, connect(l) msymbol(plus) || ///
+scatter y_m_xb Eventtime if startq==1 & endq==3, connect(l) || ///
+scatter y_m_xb Eventtime if startq==1 & endq==2, connect(l) || ///
+scatter y_m_xb Eventtime if startq==1 & endq==1, connect(l) || ///
+  , legend(label(1 "4 to 4") label(2 "4 to 3") label(3 "4 to 2") label(4 "4 to 1") ///
+           label(5 "1 to 4") label(6 "1 to 3") label(7 "1 to 2") label(8 "1 to 1") ///
+		   cols(1) pos(3) rowgap(3.6) ///
+		   subtitle("Quartile of origin" "and destination" "CZ earnings", size(small))) ///
+    xlabel(-5 -4 -3 -2 -1 0 "1" 1 "2" 2 "3" 3 "4" 4 "5" ) xline(-0.5, lpattern(dash)) ///
+	xtitle("Quarters relative to start of new job after move") ///
+	ytitle("Mean log wage (adjusted for age and year)") ///
+	saving("${results}/fig1.gph", replace) 
+graph export "${results}/fig1.png", replace 
+
+log close

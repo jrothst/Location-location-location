@@ -1,0 +1,203 @@
+total 960
+-rw-r--r--@  1 jesse-local  staff   15595 Sep 21  2023 LICENSE.txt
+-rw-r--r--@  1 jesse-local  staff   38116 Apr 25 15:25 README.docx
+-rw-r--r--@  1 jesse-local  staff  153652 May  7 12:48 README.pdf
+-rw-r--r--@  1 jesse-local  staff       0 May  7 12:50 filelisting.txt
+drwxr-xr-x@  9 jesse-local  staff     288 Apr 25 12:29 portion1_acs
+drwxr-xr-x@ 17 jesse-local  staff     544 Apr 25 13:42 portion2_rdc
+drwxr-xr-x@  5 jesse-local  staff     160 Apr 25 12:29 portion3_postdisclosure
+-rw-rw-r--@  1 jesse-local  staff  272209 Sep 21  2023 tables.xlsx
+-rw-r--r--@  1 jesse-local  staff     165 May  7 12:32 ~$tables.xlsx
+
+./portion1_acs:
+total 16
+drwxr-xr-x@  9 jesse-local  staff   288 Apr 25 12:29 code
+drwxr-xr-x@  2 jesse-local  staff    64 Sep 19  2023 intermediate
+drwxr-xr-x@  7 jesse-local  staff   224 Apr 25 12:29 origdata
+-rw-r--r--@  1 jesse-local  staff  7595 Sep 19  2023 readme.txt
+drwxr-xr-x@ 18 jesse-local  staff   576 Apr 25 12:29 results
+drwxr-xr-x@  2 jesse-local  staff    64 Sep 19  2023 tmp
+drwxr-xr-x@  4 jesse-local  staff   128 Apr 25 12:29 tocensus
+
+./portion1_acs/code:
+total 8
+-rw-r--r--@  1 jesse-local  staff  2613 Sep 19  2023 main_acs.do
+drwxr-xr-x@  4 jesse-local  staff   128 Apr 25 12:29 step1_CZ_puma_files
+drwxr-xr-x@ 15 jesse-local  staff   480 Apr 25 12:29 step2_extract_programs
+drwxr-xr-x@  8 jesse-local  staff   256 Apr 25 12:29 step3_collapse
+drwxr-xr-x@  5 jesse-local  staff   160 Apr 25 12:29 step4_programs
+drwxr-xr-x@  5 jesse-local  staff   160 Apr 25 12:29 step5_housing
+drwxr-xr-x@  3 jesse-local  staff    96 Apr 25 12:29 step6_tocensus
+
+./portion1_acs/code/step1_CZ_puma_files:
+total 16
+-rw-r--r--@ 1 jesse-local  staff  2223 Sep 19  2023 puma2000_prep.do
+-rw-r--r--@ 1 jesse-local  staff  2454 Sep 19  2023 puma2010_prep.do
+
+./portion1_acs/code/step2_extract_programs:
+total 144
+-rw-r--r--@ 1 jesse-local  staff    917 Sep 19  2023 extract10.sas
+-rw-r--r--@ 1 jesse-local  staff    920 Sep 19  2023 extract11.sas
+-rw-r--r--@ 1 jesse-local  staff    917 Sep 19  2023 extract12.sas
+-rw-r--r--@ 1 jesse-local  staff    919 Sep 19  2023 extract13.sas
+-rw-r--r--@ 1 jesse-local  staff    919 Sep 19  2023 extract14.sas
+-rw-r--r--@ 1 jesse-local  staff    919 Sep 19  2023 extract15.sas
+-rw-r--r--@ 1 jesse-local  staff    919 Sep 19  2023 extract16.sas
+-rw-r--r--@ 1 jesse-local  staff    919 Sep 19  2023 extract17.sas
+-rw-r--r--@ 1 jesse-local  staff    919 Sep 19  2023 extract18.sas
+-rw-r--r--@ 1 jesse-local  staff   1578 Sep 19  2023 extractacs.do
+-rw-r--r--@ 1 jesse-local  staff  10828 Sep 19  2023 hours1.do
+-rw-r--r--@ 1 jesse-local  staff  11025 Sep 19  2023 rank_revised_extravars.do
+-rw-r--r--@ 1 jesse-local  staff   4917 Sep 19  2023 readacs.do
+
+./portion1_acs/code/step3_collapse:
+total 104
+-rw-r--r--@ 1 jesse-local  staff   4880 Sep 19  2023 cz_chars.do
+-rw-r--r--@ 1 jesse-local  staff   5461 Sep 19  2023 phi_cz_acs.do
+-rw-r--r--@ 1 jesse-local  staff   3233 Sep 19  2023 phi_cz_alt-wage.do
+-rw-r--r--@ 1 jesse-local  staff   5750 Sep 19  2023 phi_cz_byed.do
+-rw-r--r--@ 1 jesse-local  staff  11093 Sep 19  2023 phi_cz_earns.do
+-rw-r--r--@ 1 jesse-local  staff   9432 Sep 19  2023 phi_cz_hours.do
+
+./portion1_acs/code/step4_programs:
+total 48
+-rw-r--r--@ 1 jesse-local  staff  4114 Sep 19  2023 afig2-4.do
+-rw-r--r--@ 1 jesse-local  staff  9625 Sep 19  2023 program.do
+-rw-r--r--@ 1 jesse-local  staff   252 Sep 19  2023 tab6_external.do
+
+./portion1_acs/code/step5_housing:
+total 32
+-rw-r--r--@ 1 jesse-local  staff   335 Sep 19  2023 extracthousing.do
+-rw-r--r--@ 1 jesse-local  staff  1611 Sep 19  2023 household.sas
+-rw-r--r--@ 1 jesse-local  staff  5100 Sep 19  2023 hprices.do
+
+./portion1_acs/code/step6_tocensus:
+total 8
+-rw-r--r--@ 1 jesse-local  staff  1396 Sep 19  2023 makecensusfiles.do
+
+./portion1_acs/intermediate:
+total 0
+
+./portion1_acs/origdata:
+total 64
+-rw-r--r--@ 1 jesse-local  staff  25329 Sep 19  2023 cznames.dta
+drwxr-xr-x@ 6 jesse-local  staff    192 Apr 25 12:29 dorn
+drwxr-xr-x@ 2 jesse-local  staff     64 Sep 26  2023 housing
+drwxr-xr-x@ 2 jesse-local  staff     64 Sep 26  2023 rawacs
+-rw-r--r--@ 1 jesse-local  staff   1827 Sep 19  2023 readme_sources.txt
+
+./portion1_acs/origdata/dorn:
+total 312
+-rw-r--r--@ 1 jesse-local  staff   1542 Sep 19  2023 README_Dorn.txt
+-rw-r--r--@ 1 jesse-local  staff  26078 Sep 19  2023 cw_cty_czone.dta
+-rw-r--r--@ 1 jesse-local  staff  46793 Sep 19  2023 cw_puma2000_czone.dta
+-rw-r--r--@ 1 jesse-local  staff  74470 Sep 19  2023 cw_puma2010_czone.dta
+
+./portion1_acs/origdata/housing:
+total 0
+
+./portion1_acs/origdata/rawacs:
+total 0
+
+./portion1_acs/results:
+total 1040
+-rw-r--r--@ 1 jesse-local  staff  23632 Sep 19  2023 afig2.gph
+-rw-r--r--@ 1 jesse-local  staff  48193 Sep 19  2023 afig2.png
+-rw-r--r--@ 1 jesse-local  staff  23287 Sep 19  2023 afig2_notitle.gph
+-rw-r--r--@ 1 jesse-local  staff  40972 Sep 19  2023 afig2_notitle.png
+-rw-r--r--@ 1 jesse-local  staff  14948 Sep 19  2023 afig3.gph
+-rw-r--r--@ 1 jesse-local  staff  76320 Sep 19  2023 afig3.png
+-rw-r--r--@ 1 jesse-local  staff  14671 Sep 19  2023 afig3_notitle.gph
+-rw-r--r--@ 1 jesse-local  staff  71374 Sep 19  2023 afig3_notitle.png
+-rw-r--r--@ 1 jesse-local  staff  28048 Sep 19  2023 afig4.gph
+-rw-r--r--@ 1 jesse-local  staff  66719 Sep 19  2023 afig4.png
+-rw-r--r--@ 1 jesse-local  staff  27648 Sep 19  2023 afig4_notitle.gph
+-rw-r--r--@ 1 jesse-local  staff  59605 Sep 19  2023 afig4_notitle.png
+-rw-r--r--@ 1 jesse-local  staff   1355 Sep 19  2023 apptab1.txt
+-rw-r--r--@ 1 jesse-local  staff   2872 Sep 19  2023 apptab2.txt
+-rw-r--r--@ 1 jesse-local  staff    604 Sep 19  2023 apptab7.txt
+-rw-r--r--@ 1 jesse-local  staff    285 Sep 19  2023 tab6_external.txt
+
+./portion1_acs/tmp:
+total 0
+
+./portion1_acs/tocensus:
+total 72
+-rw-r--r--@ 1 jesse-local  staff  17575 Sep 19  2023 czeffects.dta
+-rw-r--r--@ 1 jesse-local  staff  16295 Sep 19  2023 czranking6_alt-wage.dta
+
+./portion2_rdc:
+total 456
+-rw-r--r--@ 1 jesse-local  staff  94234 Sep 19  2023 6_disc7-8_rep.do
+-rw-r--r--@ 1 jesse-local  staff   7130 Sep 18  2023 M10_AKM_10pctB_cz.m
+-rw-r--r--@ 1 jesse-local  staff   7129 Sep 18  2023 M10_AKM_10pctB_czind.m
+-rw-r--r--@ 1 jesse-local  staff   8057 Sep 15  2023 akm_pcg_spelldata.m
+drwxr-xr-x@ 6 jesse-local  staff    192 Apr 25 12:29 dynamic_young
+-rw-r--r--@ 1 jesse-local  staff   2208 Sep 15  2023 firmAKM_spelldata_callable.m
+-rw-r--r--@ 1 jesse-local  staff    988 Apr 25 13:42 master_rdc.do
+-rw-r--r--@ 1 jesse-local  staff   5231 Sep 15  2023 mig5_clean1.sas
+-rw-r--r--@ 1 jesse-local  staff  16715 Sep 17  2023 mig5_clean2.do
+-rw-r--r--@ 1 jesse-local  staff    391 Sep 19  2023 mig5_paths.do
+-rw-r--r--@ 1 jesse-local  staff   1080 Sep 15  2023 mig5_paths.sas
+-rw-r--r--@ 1 jesse-local  staff  24843 Sep 15  2023 mig5_tabsdisclosure7.do
+-rw-r--r--@ 1 jesse-local  staff  11716 Sep 15  2023 mig5_tabsdisclosure9.do
+-rw-r--r--@ 1 jesse-local  staff   6395 Sep 19  2023 readme.txt
+-rw-r--r--@ 1 jesse-local  staff  12702 Sep 15  2023 runakm_2step_rep.do
+
+./portion2_rdc/dynamic_young:
+total 80
+-rw-r--r--@ 1 jesse-local  staff  12207 Sep 15  2023 akm_pcg.m
+-rw-r--r--@ 1 jesse-local  staff   2516 Sep 15  2023 firmAKM_callable.m
+-rw-r--r--@ 1 jesse-local  staff   8736 Sep 18  2023 young_comparemodels_top10.do
+-rw-r--r--@ 1 jesse-local  staff   8728 Sep 19  2023 young_comparemodels_top25.do
+
+./portion3_postdisclosure:
+total 0
+drwxr-xr-x@ 15 jesse-local  staff  480 Apr 25 13:51 code
+drwxr-xr-x@  5 jesse-local  staff  160 Apr 25 12:29 disclosed
+drwxr-xr-x@ 22 jesse-local  staff  704 Apr 25 12:29 results
+
+./portion3_postdisclosure/code:
+total 280
+-rw-r--r--@ 1 jesse-local  staff   1050 Sep 19  2023 afig10.do
+-rw-r--r--@ 1 jesse-local  staff  37637 Sep 19  2023 afig5.xlsx
+-rw-r--r--@ 1 jesse-local  staff   1348 Sep 19  2023 afig6.do
+-rw-r--r--@ 1 jesse-local  staff   2374 Sep 19  2023 afig7.do
+-rw-r--r--@ 1 jesse-local  staff   1068 Sep 19  2023 afig8.do
+-rw-r--r--@ 1 jesse-local  staff   1037 Sep 19  2023 afig9.do
+-rw-r--r--@ 1 jesse-local  staff   1929 Sep 19  2023 atab3.do
+-rw-r--r--@ 1 jesse-local  staff   1365 Sep 19  2023 fig1.do
+-rw-r--r--@ 1 jesse-local  staff   2925 Sep 19  2023 fig2.do
+-rw-r--r--@ 1 jesse-local  staff   1362 Sep 19  2023 fig3.do
+-rw-r--r--@ 1 jesse-local  staff   1906 Sep 19  2023 fig4.do
+-rw-r--r--@ 1 jesse-local  staff  54477 Sep 19  2023 glaeser-mare-figs.xlsx
+-rw-r--r--@ 1 jesse-local  staff   1433 Apr 25 13:51 main_postdisclosure.do
+
+./portion3_postdisclosure/disclosed:
+total 376
+-rw-r--r--@ 1 jesse-local  staff  136181 Sep 19  2023 Yi_1_tabs_T13T26_7_L3.xlsx
+-rw-r--r--@ 1 jesse-local  staff   30054 Sep 19  2023 Yi_1_tabs_T13T26_8_L3.xlsx
+-rw-r--r--@ 1 jesse-local  staff   18861 Sep 19  2023 Yi_1_tabs_T13T26_9_L3.xlsx
+
+./portion3_postdisclosure/results:
+total 11624
+-rw-r--r--@ 1 jesse-local  staff    15085 Sep 19  2023 afig10.gph
+-rw-r--r--@ 1 jesse-local  staff    51681 Sep 19  2023 afig10.png
+-rw-r--r--@ 1 jesse-local  staff    18609 Sep 19  2023 afig6.gph
+-rw-r--r--@ 1 jesse-local  staff   105269 Sep 19  2023 afig6.png
+-rw-r--r--@ 1 jesse-local  staff    37279 Sep 19  2023 afig7.gph
+-rw-r--r--@ 1 jesse-local  staff   105361 Sep 19  2023 afig7.png
+-rw-r--r--@ 1 jesse-local  staff    39631 Sep 19  2023 afig8.gph
+-rw-r--r--@ 1 jesse-local  staff    51674 Sep 19  2023 afig8.png
+-rw-r--r--@ 1 jesse-local  staff    15123 Sep 19  2023 afig9.gph
+-rw-r--r--@ 1 jesse-local  staff    50415 Sep 19  2023 afig9.png
+-rw-r--r--@ 1 jesse-local  staff    47877 Sep 19  2023 atab3_full.dta
+-rw-r--r--@ 1 jesse-local  staff    61175 Sep 19  2023 atab3_full.xlsx
+-rw-r--r--@ 1 jesse-local  staff    18813 Sep 19  2023 fig1.gph
+-rw-r--r--@ 1 jesse-local  staff    82690 Sep 19  2023 fig1.png
+-rw-r--r--@ 1 jesse-local  staff  4796622 Sep 19  2023 fig2.gph
+-rw-r--r--@ 1 jesse-local  staff   181180 Sep 19  2023 fig2.png
+-rw-r--r--@ 1 jesse-local  staff    18807 Sep 19  2023 fig3.gph
+-rw-r--r--@ 1 jesse-local  staff    75279 Sep 19  2023 fig3.png
+-rw-r--r--@ 1 jesse-local  staff    74737 Sep 19  2023 fig4.gph
+-rw-r--r--@ 1 jesse-local  staff    62619 Sep 19  2023 fig4.png
